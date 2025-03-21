@@ -1,0 +1,15 @@
+resilience4j:
+  circuitbreaker:
+    configs:
+      default:
+        registerHealthIndicator: true
+        ringBufferSizeInClosedState: 10
+        ringBufferSizeInHalfOpenState: 5
+        waitDurationInOpenState: 10000
+        failureRateThreshold: 50
+  retry:
+    instances:
+      backendA:
+        maxAttempts: 3
+        waitDuration: 5000
+

@@ -1,0 +1,38 @@
+2025-03-01T13:14:27.005+01:00  INFO 5776 --- [withSwagger] [restartedMain] c.m.withswagger.WithSwaggerApplication   : Starting WithSwaggerApplication using Java 23 with PID 5776 (D:\projects\my-spring-learning\AOP\Spring-AOP-main\my-aop-practice\withSwagger\target\classes started by mwwu2 in D:\projects\my-spring-learning\AOP\Spring-AOP-main\my-aop-practice)
+2025-03-01T13:14:27.006+01:00  INFO 5776 --- [withSwagger] [restartedMain] c.m.withswagger.WithSwaggerApplication   : No active profile set, falling back to 1 default profile: "default"
+2025-03-01T13:14:27.308+01:00  INFO 5776 --- [withSwagger] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-03-01T13:14:27.320+01:00  INFO 5776 --- [withSwagger] [restartedMain] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 10 ms. Found 1 JPA repository interface.
+2025-03-01T13:14:27.453+01:00  INFO 5776 --- [withSwagger] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-01T13:14:27.454+01:00  INFO 5776 --- [withSwagger] [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-01T13:14:27.455+01:00  INFO 5776 --- [withSwagger] [restartedMain] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-01T13:14:27.474+01:00  INFO 5776 --- [withSwagger] [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-01T13:14:27.474+01:00  INFO 5776 --- [withSwagger] [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 464 ms
+2025-03-01T13:14:27.525+01:00  INFO 5776 --- [withSwagger] [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-03-01T13:14:27.529+01:00  INFO 5776 --- [withSwagger] [restartedMain] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-03-01T13:14:27.539+01:00  INFO 5776 --- [withSwagger] [restartedMain] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-03-01T13:14:27.540+01:00  INFO 5776 --- [withSwagger] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Starting...
+2025-03-01T13:14:27.563+01:00  INFO 5776 --- [withSwagger] [restartedMain] com.zaxxer.hikari.pool.HikariPool        : HikariPool-2 - Added connection com.mysql.cj.jdbc.ConnectionImpl@60e2f09d
+2025-03-01T13:14:27.564+01:00  INFO 5776 --- [withSwagger] [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Start completed.
+2025-03-01T13:14:27.564+01:00  WARN 5776 --- [withSwagger] [restartedMain] org.hibernate.orm.deprecation            : HHH90000025: MySQL8Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-03-01T13:14:27.564+01:00  WARN 5776 --- [withSwagger] [restartedMain] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2025-03-01T13:14:27.565+01:00  INFO 5776 --- [withSwagger] [restartedMain] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-2)']
+	Database driver: undefined/unknown
+	Database version: 8.0
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-03-01T13:14:27.612+01:00  INFO 5776 --- [withSwagger] [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-03-01T13:14:27.621+01:00  INFO 5776 --- [withSwagger] [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-03-01T13:14:27.756+01:00  WARN 5776 --- [withSwagger] [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-03-01T13:14:27.779+01:00  INFO 5776 --- [withSwagger] [restartedMain] o.s.v.b.OptionalValidatorFactoryBean     : Failed to set up a Bean Validation provider: jakarta.validation.NoProviderFoundException: Unable to create a Configuration, because no Jakarta Bean Validation provider could be found. Add a provider like Hibernate Validator (RI) to your classpath.
+2025-03-01T13:14:27.957+01:00  INFO 5776 --- [withSwagger] [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2025-03-01T13:14:27.977+01:00  INFO 5776 --- [withSwagger] [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-01T13:14:27.982+01:00  INFO 5776 --- [withSwagger] [restartedMain] c.m.withswagger.WithSwaggerApplication   : Started WithSwaggerApplication in 1.035 seconds (process running for 31.505)
+2025-03-01T13:14:27.984+01:00  INFO 5776 --- [withSwagger] [restartedMain] .ConditionEvaluationDeltaLoggingListener : Condition evaluation unchanged
+2025-03-01T13:16:19.408+01:00  INFO 5776 --- [withSwagger] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-01T13:16:19.414+01:00  INFO 5776 --- [withSwagger] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-01T13:16:19.417+01:00  INFO 5776 --- [withSwagger] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-03-01T13:16:19.418+01:00  INFO 5776 --- [withSwagger] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown initiated...
+2025-03-01T13:16:19.422+01:00  INFO 5776 --- [withSwagger] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-2 - Shutdown completed.

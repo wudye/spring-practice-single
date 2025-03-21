@@ -1,0 +1,524 @@
+2025-03-05T12:31:45.171+01:00  INFO 23300 --- [my-activemq] [main] com.mwu.MyActivemqApplication            : Starting MyActivemqApplication using Java 23 with PID 23300 (D:\projects\my-spring-learning\activeMQ\my-activemq\target\classes started by mwwu2 in D:\projects\my-spring-learning\activeMQ\my-activemq)
+2025-03-05T12:31:45.174+01:00  INFO 23300 --- [my-activemq] [main] com.mwu.MyActivemqApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-03-05T12:31:46.447+01:00  INFO 23300 --- [my-activemq] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-05T12:31:46.462+01:00  INFO 23300 --- [my-activemq] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-05T12:31:46.463+01:00  INFO 23300 --- [my-activemq] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-05T12:31:46.514+01:00  INFO 23300 --- [my-activemq] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-05T12:31:46.514+01:00  INFO 23300 --- [my-activemq] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1251 ms
+2025-03-05T12:31:47.064+01:00  INFO 23300 --- [my-activemq] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-05T12:31:51.614+01:00  INFO 23300 --- [my-activemq] [main] com.mwu.MyActivemqApplication            : Started MyActivemqApplication in 7.125 seconds (process running for 8.009)
+2025-03-05T12:31:58.695+01:00 ERROR 23300 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:32:05.767+01:00 ERROR 23300 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:32:12.840+01:00 ERROR 23300 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=2, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:32:19.911+01:00 ERROR 23300 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=3, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:32:29.241+01:00 ERROR 23300 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=4, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:32:36.299+01:00 ERROR 23300 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=5, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:32:43.372+01:00 ERROR 23300 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=6, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:32:50.428+01:00 ERROR 23300 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=7, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:32:57.497+01:00 ERROR 23300 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=8, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:33:06.865+01:00 ERROR 23300 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=9, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:33:13.948+01:00 ERROR 23300 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=10, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:33:21.013+01:00 ERROR 23300 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=11, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:33:28.103+01:00 ERROR 23300 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=12, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:33:35.180+01:00 ERROR 23300 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=13, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:33:44.537+01:00 ERROR 23300 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=14, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:33:51.610+01:00 ERROR 23300 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=15, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:33:58.695+01:00 ERROR 23300 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=16, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:34:05.777+01:00 ERROR 23300 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=17, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61616. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:34:10.779+01:00  INFO 23300 --- [my-activemq] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-05T12:34:10.787+01:00  INFO 23300 --- [my-activemq] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-05T12:34:50.612+01:00  INFO 14900 --- [my-activemq] [main] com.mwu.MyActivemqApplication            : Starting MyActivemqApplication using Java 23 with PID 14900 (D:\projects\my-spring-learning\activeMQ\my-activemq\target\classes started by mwwu2 in D:\projects\my-spring-learning\activeMQ\my-activemq)
+2025-03-05T12:34:50.615+01:00  INFO 14900 --- [my-activemq] [main] com.mwu.MyActivemqApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-03-05T12:34:52.083+01:00  INFO 14900 --- [my-activemq] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-05T12:34:52.105+01:00  INFO 14900 --- [my-activemq] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-05T12:34:52.105+01:00  INFO 14900 --- [my-activemq] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-05T12:34:52.172+01:00  INFO 14900 --- [my-activemq] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-05T12:34:52.172+01:00  INFO 14900 --- [my-activemq] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1455 ms
+2025-03-05T12:34:52.762+01:00  INFO 14900 --- [my-activemq] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-05T12:34:57.259+01:00  INFO 14900 --- [my-activemq] [main] com.mwu.MyActivemqApplication            : Started MyActivemqApplication in 7.344 seconds (process running for 8.128)
+2025-03-05T12:35:04.329+01:00 ERROR 14900 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=0, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61615. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:35:11.406+01:00 ERROR 14900 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=1, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61615. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:35:18.473+01:00 ERROR 14900 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=2, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61615. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:35:25.551+01:00 ERROR 14900 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=3, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61615. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:35:34.918+01:00 ERROR 14900 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Could not refresh JMS Connection for destination 'QUEUE_TOPIC' - retrying using FixedBackOff{interval=5000, currentAttempts=4, maxAttempts=unlimited}. Cause: Could not connect to broker URL: tcp://globalhost:61615. Reason: java.net.ConnectException: Connection refused: getsockopt
+2025-03-05T12:35:38.852+01:00  INFO 14900 --- [my-activemq] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-05T12:35:38.862+01:00  INFO 14900 --- [my-activemq] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-05T12:58:04.658+01:00  INFO 19648 --- [my-activemq] [main] com.mwu.MyActivemqApplication            : Starting MyActivemqApplication using Java 23 with PID 19648 (D:\projects\my-spring-learning\activeMQ\my-activemq\target\classes started by mwwu2 in D:\projects\my-spring-learning\activeMQ\my-activemq)
+2025-03-05T12:58:04.661+01:00  INFO 19648 --- [my-activemq] [main] com.mwu.MyActivemqApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-03-05T12:58:05.979+01:00  INFO 19648 --- [my-activemq] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-05T12:58:05.998+01:00  INFO 19648 --- [my-activemq] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-05T12:58:05.999+01:00  INFO 19648 --- [my-activemq] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-05T12:58:06.058+01:00  INFO 19648 --- [my-activemq] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-05T12:58:06.059+01:00  INFO 19648 --- [my-activemq] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1325 ms
+2025-03-05T12:58:06.641+01:00  INFO 19648 --- [my-activemq] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-05T12:58:06.949+01:00  INFO 19648 --- [my-activemq] [main] com.mwu.MyActivemqApplication            : Started MyActivemqApplication in 2.959 seconds (process running for 3.941)
+2025-03-05T12:59:19.774+01:00  INFO 19648 --- [my-activemq] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-05T12:59:19.774+01:00  INFO 19648 --- [my-activemq] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-05T12:59:19.776+01:00  INFO 19648 --- [my-activemq] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-05T12:59:19.813+01:00  WARN 19648 --- [my-activemq] [http-nio-8080-exec-1] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' is not supported]
+2025-03-05T13:00:40.959+01:00  INFO 19648 --- [my-activemq] [http-nio-8080-exec-7] com.mwu.controller.ActiveMQController    : Message ID: 37a0e43a-1992-4b6d-9473-e84acd92f397
+2025-03-05T13:00:40.961+01:00  INFO 19648 --- [my-activemq] [http-nio-8080-exec-7] com.mwu.controller.ActiveMQProducer      : Sending Message with JMSCorrelationID : 37a0e43a-1992-4b6d-9473-e84acd92f397
+2025-03-05T13:00:41.010+01:00 ERROR 19648 --- [my-activemq] [http-nio-8080-exec-7] com.mwu.controller.ActiveMQProducer      : Caught the exception!!! 
+
+org.springframework.jms.support.converter.MessageConversionException: Cannot convert object of type [com.mwu.CustomMessage] to JMS message. Supported message payloads are: String, byte array, Map<String,?>, Serializable object.
+	at org.springframework.jms.support.converter.SimpleMessageConverter.toMessage(SimpleMessageConverter.java:80) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.core.JmsTemplate.lambda$convertAndSend$7(JmsTemplate.java:706) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.core.JmsTemplate.doSend(JmsTemplate.java:618) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.core.JmsTemplate.lambda$send$3(JmsTemplate.java:600) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.core.JmsTemplate.execute(JmsTemplate.java:521) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.core.JmsTemplate.send(JmsTemplate.java:598) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.core.JmsTemplate.convertAndSend(JmsTemplate.java:705) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at com.mwu.controller.ActiveMQProducer.produceMessagesString(ActiveMQProducer.java:29) ~[classes/:na]
+	at com.mwu.controller.ActiveMQController.publish(ActiveMQController.java:25) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-05T13:00:41.023+01:00 ERROR 19648 --- [my-activemq] [http-nio-8080-exec-7] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: Cannot send message to the Queue] with root cause
+
+java.lang.RuntimeException: Cannot send message to the Queue
+	at com.mwu.controller.ActiveMQProducer.produceMessagesString(ActiveMQProducer.java:39) ~[classes/:na]
+	at com.mwu.controller.ActiveMQController.publish(ActiveMQController.java:25) ~[classes/:na]
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+
+2025-03-05T13:02:59.552+01:00  INFO 19648 --- [my-activemq] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-05T13:02:59.561+01:00  INFO 19648 --- [my-activemq] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-05T13:03:04.501+01:00  INFO 6176 --- [my-activemq] [main] com.mwu.MyActivemqApplication            : Starting MyActivemqApplication using Java 23 with PID 6176 (D:\projects\my-spring-learning\activeMQ\my-activemq\target\classes started by mwwu2 in D:\projects\my-spring-learning\activeMQ\my-activemq)
+2025-03-05T13:03:04.505+01:00  INFO 6176 --- [my-activemq] [main] com.mwu.MyActivemqApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-03-05T13:03:05.675+01:00  INFO 6176 --- [my-activemq] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-05T13:03:05.693+01:00  INFO 6176 --- [my-activemq] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-05T13:03:05.694+01:00  INFO 6176 --- [my-activemq] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-05T13:03:05.750+01:00  INFO 6176 --- [my-activemq] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-05T13:03:05.750+01:00  INFO 6176 --- [my-activemq] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1179 ms
+2025-03-05T13:03:06.339+01:00  INFO 6176 --- [my-activemq] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-05T13:03:06.549+01:00  INFO 6176 --- [my-activemq] [main] com.mwu.MyActivemqApplication            : Started MyActivemqApplication in 2.669 seconds (process running for 3.58)
+2025-03-05T13:03:16.700+01:00  INFO 6176 --- [my-activemq] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-05T13:03:16.700+01:00  INFO 6176 --- [my-activemq] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-05T13:03:16.701+01:00  INFO 6176 --- [my-activemq] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-05T13:03:16.756+01:00  INFO 6176 --- [my-activemq] [http-nio-8080-exec-1] com.mwu.controller.ActiveMQController    : Message ID: 3b4b0190-1eae-4578-8412-a011eca46ba2
+2025-03-05T13:03:16.759+01:00  INFO 6176 --- [my-activemq] [http-nio-8080-exec-1] com.mwu.controller.ActiveMQProducer      : Sending Message with JMSCorrelationID : 3b4b0190-1eae-4578-8412-a011eca46ba2
+2025-03-05T13:03:16.861+01:00  WARN 6176 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Execution of JMS message listener failed, and no ErrorHandler has been set.
+
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.mwu.controller.ActiveMQConsumer.receiveMesssge(org.apache.logging.log4j.message.Message)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:116) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:83) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:769) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:726) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:704) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:268) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1414) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1404) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1281) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not convert JMS message
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:466) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:531) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:513) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:108) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	... 10 common frames omitted
+Caused by: jakarta.jms.JMSException: Failed to build body from content. Serializable class not available to broker. Reason: java.lang.ClassNotFoundException: Forbidden class com.mwu.CustomMessage! This class is not trusted to be serialized as ObjectMessage payload. Please take a look at http://activemq.apache.org/objectmessage.html for more information on how to configure trusted classes.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.command.ActiveMQObjectMessage.deserialize(ActiveMQObjectMessage.java:220) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.command.ActiveMQObjectMessage.getObject(ActiveMQObjectMessage.java:199) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.springframework.jms.support.converter.SimpleMessageConverter.extractSerializableFromMessage(SimpleMessageConverter.java:221) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.support.converter.SimpleMessageConverter.fromMessage(SimpleMessageConverter.java:107) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:245) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	... 18 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Forbidden class com.mwu.CustomMessage! This class is not trusted to be serialized as ObjectMessage payload. Please take a look at http://activemq.apache.org/objectmessage.html for more information on how to configure trusted classes.
+	at org.apache.activemq.util.ClassLoadingAwareObjectInputStream.checkSecurity(ClassLoadingAwareObjectInputStream.java:115) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.util.ClassLoadingAwareObjectInputStream.resolveClass(ClassLoadingAwareObjectInputStream.java:56) ~[activemq-client-6.1.5.jar:6.1.5]
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:2055) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1915) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2246) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1750) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486) ~[na:na]
+	at org.apache.activemq.command.ActiveMQObjectMessage.deserialize(ActiveMQObjectMessage.java:218) ~[activemq-client-6.1.5.jar:6.1.5]
+	... 22 common frames omitted
+
+2025-03-05T13:03:17.879+01:00  WARN 6176 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Execution of JMS message listener failed, and no ErrorHandler has been set.
+
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.mwu.controller.ActiveMQConsumer.receiveMesssge(org.apache.logging.log4j.message.Message)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:116) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:83) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:769) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:726) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:704) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:268) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1414) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1404) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1281) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not convert JMS message
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:466) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:531) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:513) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:108) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	... 10 common frames omitted
+Caused by: jakarta.jms.JMSException: Failed to build body from content. Serializable class not available to broker. Reason: java.lang.ClassNotFoundException: Forbidden class com.mwu.CustomMessage! This class is not trusted to be serialized as ObjectMessage payload. Please take a look at http://activemq.apache.org/objectmessage.html for more information on how to configure trusted classes.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.command.ActiveMQObjectMessage.deserialize(ActiveMQObjectMessage.java:220) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.command.ActiveMQObjectMessage.getObject(ActiveMQObjectMessage.java:199) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.springframework.jms.support.converter.SimpleMessageConverter.extractSerializableFromMessage(SimpleMessageConverter.java:221) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.support.converter.SimpleMessageConverter.fromMessage(SimpleMessageConverter.java:107) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:245) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	... 18 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Forbidden class com.mwu.CustomMessage! This class is not trusted to be serialized as ObjectMessage payload. Please take a look at http://activemq.apache.org/objectmessage.html for more information on how to configure trusted classes.
+	at org.apache.activemq.util.ClassLoadingAwareObjectInputStream.checkSecurity(ClassLoadingAwareObjectInputStream.java:115) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.util.ClassLoadingAwareObjectInputStream.resolveClass(ClassLoadingAwareObjectInputStream.java:56) ~[activemq-client-6.1.5.jar:6.1.5]
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:2055) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1915) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2246) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1750) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486) ~[na:na]
+	at org.apache.activemq.command.ActiveMQObjectMessage.deserialize(ActiveMQObjectMessage.java:218) ~[activemq-client-6.1.5.jar:6.1.5]
+	... 22 common frames omitted
+
+2025-03-05T13:03:18.886+01:00  WARN 6176 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Execution of JMS message listener failed, and no ErrorHandler has been set.
+
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.mwu.controller.ActiveMQConsumer.receiveMesssge(org.apache.logging.log4j.message.Message)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:116) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:83) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:769) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:726) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:704) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:268) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1414) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1404) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1281) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not convert JMS message
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:466) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:531) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:513) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:108) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	... 10 common frames omitted
+Caused by: jakarta.jms.JMSException: Failed to build body from content. Serializable class not available to broker. Reason: java.lang.ClassNotFoundException: Forbidden class com.mwu.CustomMessage! This class is not trusted to be serialized as ObjectMessage payload. Please take a look at http://activemq.apache.org/objectmessage.html for more information on how to configure trusted classes.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.command.ActiveMQObjectMessage.deserialize(ActiveMQObjectMessage.java:220) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.command.ActiveMQObjectMessage.getObject(ActiveMQObjectMessage.java:199) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.springframework.jms.support.converter.SimpleMessageConverter.extractSerializableFromMessage(SimpleMessageConverter.java:221) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.support.converter.SimpleMessageConverter.fromMessage(SimpleMessageConverter.java:107) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:245) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	... 18 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Forbidden class com.mwu.CustomMessage! This class is not trusted to be serialized as ObjectMessage payload. Please take a look at http://activemq.apache.org/objectmessage.html for more information on how to configure trusted classes.
+	at org.apache.activemq.util.ClassLoadingAwareObjectInputStream.checkSecurity(ClassLoadingAwareObjectInputStream.java:115) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.util.ClassLoadingAwareObjectInputStream.resolveClass(ClassLoadingAwareObjectInputStream.java:56) ~[activemq-client-6.1.5.jar:6.1.5]
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:2055) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1915) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2246) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1750) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486) ~[na:na]
+	at org.apache.activemq.command.ActiveMQObjectMessage.deserialize(ActiveMQObjectMessage.java:218) ~[activemq-client-6.1.5.jar:6.1.5]
+	... 22 common frames omitted
+
+2025-03-05T13:03:19.899+01:00  WARN 6176 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Execution of JMS message listener failed, and no ErrorHandler has been set.
+
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.mwu.controller.ActiveMQConsumer.receiveMesssge(org.apache.logging.log4j.message.Message)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:116) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:83) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:769) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:726) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:704) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:268) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1414) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1404) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1281) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not convert JMS message
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:466) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:531) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:513) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:108) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	... 10 common frames omitted
+Caused by: jakarta.jms.JMSException: Failed to build body from content. Serializable class not available to broker. Reason: java.lang.ClassNotFoundException: Forbidden class com.mwu.CustomMessage! This class is not trusted to be serialized as ObjectMessage payload. Please take a look at http://activemq.apache.org/objectmessage.html for more information on how to configure trusted classes.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.command.ActiveMQObjectMessage.deserialize(ActiveMQObjectMessage.java:220) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.command.ActiveMQObjectMessage.getObject(ActiveMQObjectMessage.java:199) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.springframework.jms.support.converter.SimpleMessageConverter.extractSerializableFromMessage(SimpleMessageConverter.java:221) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.support.converter.SimpleMessageConverter.fromMessage(SimpleMessageConverter.java:107) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:245) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	... 18 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Forbidden class com.mwu.CustomMessage! This class is not trusted to be serialized as ObjectMessage payload. Please take a look at http://activemq.apache.org/objectmessage.html for more information on how to configure trusted classes.
+	at org.apache.activemq.util.ClassLoadingAwareObjectInputStream.checkSecurity(ClassLoadingAwareObjectInputStream.java:115) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.util.ClassLoadingAwareObjectInputStream.resolveClass(ClassLoadingAwareObjectInputStream.java:56) ~[activemq-client-6.1.5.jar:6.1.5]
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:2055) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1915) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2246) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1750) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486) ~[na:na]
+	at org.apache.activemq.command.ActiveMQObjectMessage.deserialize(ActiveMQObjectMessage.java:218) ~[activemq-client-6.1.5.jar:6.1.5]
+	... 22 common frames omitted
+
+2025-03-05T13:03:20.912+01:00  WARN 6176 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Execution of JMS message listener failed, and no ErrorHandler has been set.
+
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.mwu.controller.ActiveMQConsumer.receiveMesssge(org.apache.logging.log4j.message.Message)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:116) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:83) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:769) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:726) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:704) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:268) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1414) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1404) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1281) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not convert JMS message
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:466) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:531) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:513) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:108) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	... 10 common frames omitted
+Caused by: jakarta.jms.JMSException: Failed to build body from content. Serializable class not available to broker. Reason: java.lang.ClassNotFoundException: Forbidden class com.mwu.CustomMessage! This class is not trusted to be serialized as ObjectMessage payload. Please take a look at http://activemq.apache.org/objectmessage.html for more information on how to configure trusted classes.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.command.ActiveMQObjectMessage.deserialize(ActiveMQObjectMessage.java:220) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.command.ActiveMQObjectMessage.getObject(ActiveMQObjectMessage.java:199) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.springframework.jms.support.converter.SimpleMessageConverter.extractSerializableFromMessage(SimpleMessageConverter.java:221) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.support.converter.SimpleMessageConverter.fromMessage(SimpleMessageConverter.java:107) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:245) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	... 18 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Forbidden class com.mwu.CustomMessage! This class is not trusted to be serialized as ObjectMessage payload. Please take a look at http://activemq.apache.org/objectmessage.html for more information on how to configure trusted classes.
+	at org.apache.activemq.util.ClassLoadingAwareObjectInputStream.checkSecurity(ClassLoadingAwareObjectInputStream.java:115) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.util.ClassLoadingAwareObjectInputStream.resolveClass(ClassLoadingAwareObjectInputStream.java:56) ~[activemq-client-6.1.5.jar:6.1.5]
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:2055) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1915) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2246) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1750) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486) ~[na:na]
+	at org.apache.activemq.command.ActiveMQObjectMessage.deserialize(ActiveMQObjectMessage.java:218) ~[activemq-client-6.1.5.jar:6.1.5]
+	... 22 common frames omitted
+
+2025-03-05T13:03:21.936+01:00  WARN 6176 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Execution of JMS message listener failed, and no ErrorHandler has been set.
+
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.mwu.controller.ActiveMQConsumer.receiveMesssge(org.apache.logging.log4j.message.Message)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:116) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:83) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:769) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:726) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:704) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:268) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1414) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1404) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1281) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not convert JMS message
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:466) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:531) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:513) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:108) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	... 10 common frames omitted
+Caused by: jakarta.jms.JMSException: Failed to build body from content. Serializable class not available to broker. Reason: java.lang.ClassNotFoundException: Forbidden class com.mwu.CustomMessage! This class is not trusted to be serialized as ObjectMessage payload. Please take a look at http://activemq.apache.org/objectmessage.html for more information on how to configure trusted classes.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.command.ActiveMQObjectMessage.deserialize(ActiveMQObjectMessage.java:220) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.command.ActiveMQObjectMessage.getObject(ActiveMQObjectMessage.java:199) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.springframework.jms.support.converter.SimpleMessageConverter.extractSerializableFromMessage(SimpleMessageConverter.java:221) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.support.converter.SimpleMessageConverter.fromMessage(SimpleMessageConverter.java:107) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:245) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	... 18 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Forbidden class com.mwu.CustomMessage! This class is not trusted to be serialized as ObjectMessage payload. Please take a look at http://activemq.apache.org/objectmessage.html for more information on how to configure trusted classes.
+	at org.apache.activemq.util.ClassLoadingAwareObjectInputStream.checkSecurity(ClassLoadingAwareObjectInputStream.java:115) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.util.ClassLoadingAwareObjectInputStream.resolveClass(ClassLoadingAwareObjectInputStream.java:56) ~[activemq-client-6.1.5.jar:6.1.5]
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:2055) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1915) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2246) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1750) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486) ~[na:na]
+	at org.apache.activemq.command.ActiveMQObjectMessage.deserialize(ActiveMQObjectMessage.java:218) ~[activemq-client-6.1.5.jar:6.1.5]
+	... 22 common frames omitted
+
+2025-03-05T13:03:22.947+01:00  WARN 6176 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] o.s.j.l.DefaultMessageListenerContainer  : Execution of JMS message listener failed, and no ErrorHandler has been set.
+
+org.springframework.jms.listener.adapter.ListenerExecutionFailedException: Listener method 'public void com.mwu.controller.ActiveMQConsumer.receiveMesssge(org.apache.logging.log4j.message.Message)' threw exception
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:116) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.onMessage(MessagingMessageListenerAdapter.java:83) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doInvokeListener(AbstractMessageListenerContainer.java:769) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.invokeListener(AbstractMessageListenerContainer.java:726) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractMessageListenerContainer.doExecuteListener(AbstractMessageListenerContainer.java:704) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.doReceiveAndExecute(AbstractPollingMessageListenerContainer.java:331) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.AbstractPollingMessageListenerContainer.receiveAndExecute(AbstractPollingMessageListenerContainer.java:268) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.invokeListener(DefaultMessageListenerContainer.java:1414) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.executeOngoingLoop(DefaultMessageListenerContainer.java:1404) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.DefaultMessageListenerContainer$AsyncMessageListenerInvoker.run(DefaultMessageListenerContainer.java:1281) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
+Caused by: org.springframework.jms.support.converter.MessageConversionException: Could not convert JMS message
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:250) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter.extractPayload(AbstractAdaptableMessageListener.java:466) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.unwrapPayload(AbstractAdaptableMessageListener.java:531) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener$MessagingMessageConverterAdapter$LazyResolutionMessage.getPayload(AbstractAdaptableMessageListener.java:513) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.messaging.handler.annotation.support.PayloadMethodArgumentResolver.resolveArgument(PayloadMethodArgumentResolver.java:122) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.HandlerMethodArgumentResolverComposite.resolveArgument(HandlerMethodArgumentResolverComposite.java:118) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.getMethodArgumentValues(InvocableHandlerMethod.java:147) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.messaging.handler.invocation.InvocableHandlerMethod.invoke(InvocableHandlerMethod.java:115) ~[spring-messaging-6.2.3.jar:6.2.3]
+	at org.springframework.jms.listener.adapter.MessagingMessageListenerAdapter.invokeHandler(MessagingMessageListenerAdapter.java:108) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	... 10 common frames omitted
+Caused by: jakarta.jms.JMSException: Failed to build body from content. Serializable class not available to broker. Reason: java.lang.ClassNotFoundException: Forbidden class com.mwu.CustomMessage! This class is not trusted to be serialized as ObjectMessage payload. Please take a look at http://activemq.apache.org/objectmessage.html for more information on how to configure trusted classes.
+	at org.apache.activemq.util.JMSExceptionSupport.create(JMSExceptionSupport.java:49) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.command.ActiveMQObjectMessage.deserialize(ActiveMQObjectMessage.java:220) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.command.ActiveMQObjectMessage.getObject(ActiveMQObjectMessage.java:199) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.springframework.jms.support.converter.SimpleMessageConverter.extractSerializableFromMessage(SimpleMessageConverter.java:221) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.support.converter.SimpleMessageConverter.fromMessage(SimpleMessageConverter.java:107) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	at org.springframework.jms.listener.adapter.AbstractAdaptableMessageListener.extractMessage(AbstractAdaptableMessageListener.java:245) ~[spring-jms-7.0.0-M2.jar:7.0.0-M2]
+	... 18 common frames omitted
+Caused by: java.lang.ClassNotFoundException: Forbidden class com.mwu.CustomMessage! This class is not trusted to be serialized as ObjectMessage payload. Please take a look at http://activemq.apache.org/objectmessage.html for more information on how to configure trusted classes.
+	at org.apache.activemq.util.ClassLoadingAwareObjectInputStream.checkSecurity(ClassLoadingAwareObjectInputStream.java:115) ~[activemq-client-6.1.5.jar:6.1.5]
+	at org.apache.activemq.util.ClassLoadingAwareObjectInputStream.resolveClass(ClassLoadingAwareObjectInputStream.java:56) ~[activemq-client-6.1.5.jar:6.1.5]
+	at java.base/java.io.ObjectInputStream.readNonProxyDesc(ObjectInputStream.java:2055) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readClassDesc(ObjectInputStream.java:1915) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readOrdinaryObject(ObjectInputStream.java:2246) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject0(ObjectInputStream.java:1750) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:528) ~[na:na]
+	at java.base/java.io.ObjectInputStream.readObject(ObjectInputStream.java:486) ~[na:na]
+	at org.apache.activemq.command.ActiveMQObjectMessage.deserialize(ActiveMQObjectMessage.java:218) ~[activemq-client-6.1.5.jar:6.1.5]
+	... 22 common frames omitted
+
+2025-03-05T13:05:29.915+01:00  INFO 6176 --- [my-activemq] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-05T13:05:29.925+01:00  INFO 6176 --- [my-activemq] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-05T13:15:02.508+01:00  INFO 15148 --- [my-activemq] [main] com.mwu.MyActivemqApplication            : Starting MyActivemqApplication using Java 23 with PID 15148 (D:\projects\my-spring-learning\activeMQ\my-activemq\target\classes started by mwwu2 in D:\projects\my-spring-learning\activeMQ\my-activemq)
+2025-03-05T13:15:02.510+01:00  INFO 15148 --- [my-activemq] [main] com.mwu.MyActivemqApplication            : No active profile set, falling back to 1 default profile: "default"
+2025-03-05T13:15:04.013+01:00  INFO 15148 --- [my-activemq] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-05T13:15:04.035+01:00  INFO 15148 --- [my-activemq] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-05T13:15:04.035+01:00  INFO 15148 --- [my-activemq] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-05T13:15:04.115+01:00  INFO 15148 --- [my-activemq] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-05T13:15:04.116+01:00  INFO 15148 --- [my-activemq] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1522 ms
+2025-03-05T13:15:05.013+01:00  INFO 15148 --- [my-activemq] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-05T13:15:05.253+01:00  INFO 15148 --- [my-activemq] [main] com.mwu.MyActivemqApplication            : Started MyActivemqApplication in 3.608 seconds (process running for 4.516)
+2025-03-05T13:18:32.748+01:00  INFO 15148 --- [my-activemq] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-05T13:18:32.749+01:00  INFO 15148 --- [my-activemq] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-05T13:18:32.750+01:00  INFO 15148 --- [my-activemq] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-05T13:18:32.931+01:00  INFO 15148 --- [my-activemq] [http-nio-8080-exec-1] com.mwu.controller.ActiveMQProducer      : Message sent to the queue successfully
+2025-03-05T13:18:32.952+01:00  INFO 15148 --- [my-activemq] [org.springframework.jms.JmsListenerEndpointContainer#0-1] com.mwu.controller.ActiveMQConsumer      : Received message: Store(itemId=1, itemName=test, itemQuantity=10)
+2025-03-05T13:21:08.328+01:00  INFO 15148 --- [my-activemq] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-05T13:21:08.338+01:00  INFO 15148 --- [my-activemq] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete

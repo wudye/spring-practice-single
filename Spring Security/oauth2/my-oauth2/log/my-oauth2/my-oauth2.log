@@ -1,0 +1,48 @@
+2025-03-03T12:36:31.333+01:00  INFO 4552 --- [my-oauth2] [main] com.mwu.myoauth2.MyOauth2Application     : Starting MyOauth2Application using Java 23 with PID 4552 (D:\projects\my-spring-learning\Spring Security\oauth2\my-oauth2\target\classes started by mwwu2 in D:\projects\my-spring-learning\Spring Security\oauth2\my-oauth2)
+2025-03-03T12:36:31.335+01:00  INFO 4552 --- [my-oauth2] [main] com.mwu.myoauth2.MyOauth2Application     : No active profile set, falling back to 1 default profile: "default"
+2025-03-03T12:36:32.508+01:00  INFO 4552 --- [my-oauth2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-03T12:36:32.524+01:00  INFO 4552 --- [my-oauth2] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-03T12:36:32.525+01:00  INFO 4552 --- [my-oauth2] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-03T12:36:32.573+01:00  INFO 4552 --- [my-oauth2] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-03T12:36:32.574+01:00  INFO 4552 --- [my-oauth2] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1167 ms
+2025-03-03T12:36:32.892+01:00  INFO 4552 --- [my-oauth2] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-03-03T12:36:33.104+01:00  WARN 4552 --- [my-oauth2] [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [/, login, error] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-03-03T12:36:33.398+01:00  INFO 4552 --- [my-oauth2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-03T12:36:33.406+01:00  INFO 4552 --- [my-oauth2] [main] com.mwu.myoauth2.MyOauth2Application     : Started MyOauth2Application in 2.692 seconds (process running for 3.431)
+2025-03-03T12:36:37.612+01:00  INFO 4552 --- [my-oauth2] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-03T12:36:37.612+01:00  INFO 4552 --- [my-oauth2] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-03T12:36:37.613+01:00  INFO 4552 --- [my-oauth2] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-03T12:39:18.837+01:00  INFO 4552 --- [my-oauth2] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-03T12:39:18.846+01:00  INFO 4552 --- [my-oauth2] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-03T12:42:14.983+01:00  INFO 17308 --- [my-oauth2] [main] com.mwu.myoauth2.MyOauth2Application     : Starting MyOauth2Application using Java 23 with PID 17308 (D:\projects\my-spring-learning\Spring Security\oauth2\my-oauth2\target\classes started by mwwu2 in D:\projects\my-spring-learning\Spring Security\oauth2\my-oauth2)
+2025-03-03T12:42:14.986+01:00  INFO 17308 --- [my-oauth2] [main] com.mwu.myoauth2.MyOauth2Application     : No active profile set, falling back to 1 default profile: "default"
+2025-03-03T12:42:16.088+01:00  INFO 17308 --- [my-oauth2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-03T12:42:16.102+01:00  INFO 17308 --- [my-oauth2] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-03T12:42:16.102+01:00  INFO 17308 --- [my-oauth2] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-03T12:42:16.152+01:00  INFO 17308 --- [my-oauth2] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-03T12:42:16.153+01:00  INFO 17308 --- [my-oauth2] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1095 ms
+2025-03-03T12:42:16.448+01:00  INFO 17308 --- [my-oauth2] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-03-03T12:42:16.639+01:00  WARN 17308 --- [my-oauth2] [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [/, login, error] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-03-03T12:42:16.897+01:00  INFO 17308 --- [my-oauth2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-03T12:42:16.905+01:00  INFO 17308 --- [my-oauth2] [main] com.mwu.myoauth2.MyOauth2Application     : Started MyOauth2Application in 2.532 seconds (process running for 3.289)
+2025-03-03T12:42:25.398+01:00  INFO 17308 --- [my-oauth2] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-03T12:42:25.399+01:00  INFO 17308 --- [my-oauth2] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-03T12:42:25.401+01:00  INFO 17308 --- [my-oauth2] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-03-03T12:42:35.534+01:00  INFO 17308 --- [my-oauth2] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-03T12:42:35.543+01:00  INFO 17308 --- [my-oauth2] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-03-03T12:43:15.013+01:00  INFO 16960 --- [my-oauth2] [main] com.mwu.myoauth2.MyOauth2Application     : Starting MyOauth2Application using Java 23 with PID 16960 (D:\projects\my-spring-learning\Spring Security\oauth2\my-oauth2\target\classes started by mwwu2 in D:\projects\my-spring-learning\Spring Security\oauth2\my-oauth2)
+2025-03-03T12:43:15.017+01:00  INFO 16960 --- [my-oauth2] [main] com.mwu.myoauth2.MyOauth2Application     : No active profile set, falling back to 1 default profile: "default"
+2025-03-03T12:43:16.177+01:00  INFO 16960 --- [my-oauth2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-03-03T12:43:16.192+01:00  INFO 16960 --- [my-oauth2] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-03-03T12:43:16.193+01:00  INFO 16960 --- [my-oauth2] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2025-03-03T12:43:16.282+01:00  INFO 16960 --- [my-oauth2] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-03-03T12:43:16.283+01:00  INFO 16960 --- [my-oauth2] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1183 ms
+2025-03-03T12:43:16.588+01:00  INFO 16960 --- [my-oauth2] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2025-03-03T12:43:16.796+01:00  WARN 16960 --- [my-oauth2] [main] thorizationManagerRequestMatcherRegistry : One of the patterns in [/, login, error] is missing a leading slash. This is discouraged; please include the leading slash in all your request matcher patterns. In future versions of Spring Security, leaving out the leading slash will result in an exception.
+2025-03-03T12:43:17.047+01:00  INFO 16960 --- [my-oauth2] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-03-03T12:43:17.057+01:00  INFO 16960 --- [my-oauth2] [main] com.mwu.myoauth2.MyOauth2Application     : Started MyOauth2Application in 2.728 seconds (process running for 3.483)
+2025-03-03T12:43:17.323+01:00  INFO 16960 --- [my-oauth2] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-03-03T12:43:17.323+01:00  INFO 16960 --- [my-oauth2] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-03-03T12:43:17.325+01:00  INFO 16960 --- [my-oauth2] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 0 ms
+2025-03-03T12:43:33.798+01:00  INFO 16960 --- [my-oauth2] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-03-03T12:43:33.807+01:00  INFO 16960 --- [my-oauth2] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
