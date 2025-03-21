@@ -1,0 +1,15 @@
+<!doctype html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Document</title>
+</head>
+<body>
+    <h1>upload status</h1>
+    <p>upload status: ${status}</p>
+    <div th:if="${message}">
+        <h2 th:text="${message}"></h2>
+    </div>
+</body>
+</html>

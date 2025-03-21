@@ -1,0 +1,28 @@
+server:
+  compression:
+    enabled: true
+  port: 8080
+  shutdown: graceful
+  tomcat:
+    mbeanregistry:
+      enabled: true
+
+spring:
+  application:
+    name: spring-boot-rest-api
+  lifecycle:
+    timeout-per-shutdown-phase: 20s
+springdoc:
+  api-docs:
+    enabled: true
+  swagger-ui:
+    enabled: true
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health, info
+  endpoint:
+    health:
+      show-details: always

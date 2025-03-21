@@ -1,0 +1,29 @@
+spring:
+  application:
+    name: my-oauth2
+  security:
+    oauth2:
+      client:
+        registration:
+            google:
+                client-id: 1234567890-abcdefghijklmnopqrstuvwxyz.apps.googleusercontent.com
+                client-secret: abcdefghijklmnopqrstuvwxyz
+                scope:
+                  - email
+                  - profile
+            github:
+                client-id: 1234567890
+                client-secret: abcdefghijklmnopqrstuvwxyz
+                scope:
+                  - user:email
+                  - read:user
+
+gg:
+  jte:
+    development-mode: true
+
+logging:
+  file:
+    name: log/my-oauth2/my-oauth2.log
+    level:
+      org.springframework.security: DEBUG

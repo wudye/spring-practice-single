@@ -1,0 +1,117 @@
+{
+  "groups": [
+    {
+      "name": "spring.data.mongodb",
+      "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
+      "sourceType": "com.mwu.myv1.config.database.mongoDB.DemoMongoConfig",
+      "sourceMethod": "getDemoProperties()"
+    },
+    {
+      "name": "spring.data.mongodb.gridfs",
+      "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties$Gridfs",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
+      "sourceMethod": "getGridfs()"
+    },
+    {
+      "name": "spring.data.mongodb.ssl",
+      "type": "org.springframework.boot.autoconfigure.mongo.MongoProperties$Ssl",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties",
+      "sourceMethod": "getSsl()"
+    },
+    {
+      "name": "spring.datasource.demo",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.mwu.myv1.config.database.mysql.DemoDataSourceConfig",
+      "sourceMethod": "demoDataSource()"
+    },
+    {
+      "name": "spring.datasource.demo-ro",
+      "type": "javax.sql.DataSource",
+      "sourceType": "com.mwu.myv1.config.database.mysql.RoDemoDataSourceConfig",
+      "sourceMethod": "dataSource()"
+    }
+  ],
+  "properties": [
+    {
+      "name": "spring.data.mongodb.additional-hosts",
+      "type": "java.util.List<java.lang.String>",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "spring.data.mongodb.authentication-database",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "spring.data.mongodb.auto-index-creation",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "spring.data.mongodb.database",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "spring.data.mongodb.field-naming-strategy",
+      "type": "java.lang.Class<?>",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "spring.data.mongodb.gridfs.bucket",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties$Gridfs"
+    },
+    {
+      "name": "spring.data.mongodb.gridfs.database",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties$Gridfs"
+    },
+    {
+      "name": "spring.data.mongodb.host",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "spring.data.mongodb.password",
+      "type": "java.lang.Character[]",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "spring.data.mongodb.port",
+      "type": "java.lang.Integer",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "spring.data.mongodb.replica-set-name",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "spring.data.mongodb.ssl.bundle",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties$Ssl"
+    },
+    {
+      "name": "spring.data.mongodb.ssl.enabled",
+      "type": "java.lang.Boolean",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties$Ssl"
+    },
+    {
+      "name": "spring.data.mongodb.uri",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "spring.data.mongodb.username",
+      "type": "java.lang.String",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    },
+    {
+      "name": "spring.data.mongodb.uuid-representation",
+      "type": "org.bson.UuidRepresentation",
+      "sourceType": "org.springframework.boot.autoconfigure.mongo.MongoProperties"
+    }
+  ],
+  "hints": []
+}
